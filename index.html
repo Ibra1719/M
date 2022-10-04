@@ -1,60 +1,317 @@
 <!DOCTYPE html>
-				<html lang="ru">
-				<head>
-					<meta charset="UTF-8">
-					<meta name="viewport" content="width=device-width, initial-scale=1.0">
-					<link rel="stylesheet" href="style.css" type="text/css">
-					<title>Макет 1.3</title>
-				</head>
-				<body>
-					<div class="wrapper">
-						<div class="content">
-							<div class="menu">
-								<div class="container">
-									<div class="menu__block">
-										<input type="image" src="img/burger.svg" alt="" name="menu">
-										<img src="img/Group.svg" alt="" class="menu__ic">
-										<div class="menu__image1"><img src="img/divider.svg" alt="" class="menu__ic" ></div>
-										<input type="image" src="img/repair.svg" alt="" name="image" class="menu__image2">
-										<input type="image" src="img/checkstatus.svg" alt="" name="image2" class="menu__image3">
-									</div>
-								</div>
-							</div>
-							<div class="header">
-								<div class="container">
-									<div class="header__block">
-										<img src="img/header/highlight.png" class="header__el1">
-										<h1 class="header__el2">Услуги и сервисы</h1>
-									</div>
-								</div>
-							</div>
-							<div class="nav">
-								<div class="container">
-									<ul class="nav__block">
-										<li><a href="#" class="nav__el1">Ремонтируемые устройства</a></li>
-										<li><a href="#" class="nav__el2">Дополнительные услуги</a></li>
-										<li><a href="#" class="nav__el3">Цены на услуги</a></li>
-										<li><a href="#" class="nav__el4">Специальные цены</a></li>
-										<li><a href="#" class="nav__el5">Адреса сервисных центров</a></li>	
-										<li><a href="#" class="nav__el6">Ремонтируемые бренды</a></li>	
-										<li><a href="#" class="nav__el7">Отзывы</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="main">
-								<div class="container">
-									<div class="main__block">
-										<p class="main__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p><br>
-										<p class="main__end">Читать далее</p>
-										<div class="main__img">
-											<img src="img/_MG_3223.jpg" class="main__img1">
-											<img hidden src="img/_MG_3223 (1).jpg" class="main__img2">
-											<img hidden src="img/_MG_3223_1.jpg" class="main__img3">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+<link href="style.css" rel="stylesheet"></head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="menu">
+                <div class="container">
+                    <div class="menu__block">
+                            <input type="image" src="img/burger.svg" alt="" name="menu" class="menu__burger">
+                            <img src="img/Group.svg" alt="" class="menu__ic">
+                            <div class="menu__image1"><img src="img/divider.svg" alt="" class="menu__ic"></div>
+                        <input type="image" src="img/repair.svg" alt="" name="image" class="menu__image2">
+                        <input type="image" src="img/checkstatus.svg" alt="" name="image2" class="menu__image3">
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="container">
+                    <div class="header__block">
+                        <img src="img/highlight.svg" class="header__el1">
+                        <h1 class="header__el2">Услуги и сервисы</h1>
+                        <p class="header__el3">Оставить заявку<input type="image" src="img/repair.svg" alt="" name="image" class="menu__image2"></p>
+                        <p class="header__el4">Статус ремонта<input type="image" src="img/checkstatus.svg" alt="" name="image2" class="menu__image3"></p>            
+                    </div>
+                        <div class="content-menu">
+                            <div class="menu2">
+                                <div class="menu2__block">
+                                <input type="image" src="img/X.svg" alt="" name="imageX" class="menu2__imageX">
+                                <img src="img/Group.svg" alt="" class="menu2__image2">
+                                <input type="image" src="img/search.svg" alt="" name="image2" class="menu2__image3">
+                            </div>
+                        </div>
+                        <div class="nav2">
+                            <ul class="nav2__block">                                    
+                                <li><a href="#" class="nav__el1">Ремонтируемые устройства</a></li>
+                                <li><a href="#" class="nav__el2">Услуги и сервисы</a></li>
+                                <li><a href="#" class="nav__el3">Корпоративным клиентам</a></li>
+                                <li><a href="#" class="nav__el4">Продавцам техники</a></li>
+                                <li><a href="#" class="nav__el5">Продавцам техники</a></li>	
+                                <li><a href="#" class="nav__el6">Производителям</a></li>	
+                                <li><a href="#" class="nav__el7">Наши сервисные центры</a></li>
+                                <li><a href="#" class="nav__el8">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu2">
+                            <div class="menu2__block">
+                                <input type="image" src="img/call.svg" alt="" name="call" class="menu2__img-call">
+                                <input type="image" src="img/chat.svg" alt="" name="chat" class="menu2__img-chat">
+                                <input type="image" src="img/profile.svg" alt="" name="profile">
+                            </div>
+                        </div>                    
+                        <div class="footer2">
+                            <div class="footer2__block">
+                                <p class="footer2__mail">mail@cps.com</p>                            
+                                <p class="footer2__number">8 800 890 8900</p>
+                                <ul class="footer2__lang">
+                                    <li><a href="#">RU</a></li>
+                                    <li><a href="#">EN</a></li>
+                                    <li><a href="#">CH</a></li>
+                                </ul>
+                            </div>	
+                        </div>
+                    </div>
+                    <div class="content-menu2">
+                        <div class="feedback-content">
+                            <div class="feedback">
+                                <input type="image" src="img/X.svg" alt="" name="imageX" class="menu2__imageX1">
+                                <h3>Обратная связь</h3>
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                    <input type="text" name="username" value="" placeholder="Имя">
+                                    <input type="tel" name="phone" value="" placeholder="Телефон">
+                                    <input type="email" name="Email" value="" placeholder="Электронная почта">
+                                    <textarea name="text" placeholder="Сообщение"></textarea>
+                                </form>
+                                <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+                                <input type="image" src="img/Group 11.svg" alt="" name="send">
+                            </div>
+                            <div class="call">
+                                <input type="image" src="img/X.svg" alt="" name="imageX" class="menu2__imageX2">
+                                <h3>Заказать звонок</h3>
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                <input type="tel" name="phone" value="" placeholder="Телефон">
+                                </form>
+                                <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+                                <input type="image" src="img/Group 11.svg" alt="" name="send">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                <div class="container">
+                    <ul class="nav__block">
+                        <li><a href="#" class="nav__el1">Ремонтируемые устройства</a></li>
+                        <li><a href="#" class="nav__el2">Дополнительные услуги</a></li>
+                        <li><a href="#" class="nav__el3">Цены на услуги</a></li>
+                        <li><a href="#" class="nav__el4">Специальные цены</a></li>
+                        <li><a href="#" class="nav__el5">Адреса сервисных центров</a></li>	
+                        <li><a href="#" class="nav__el6">Ремонтируемые бренды</a></li>	
+                        <li><a href="#" class="nav__el7">Отзывы</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <div class="container">
+                    <div class="main__block">
+                        <p class="main__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p><br>
+                        <p class="main__end"> <input type="image" src="img/main__end.svg" alt=""> Читать далее</p>
+                        <div class="main__img">
+                            <img src="img/_MG_3223.jpg" class="main__img1">
+                            <img hidden src="img/_MG_3223 (1).jpg" class="main__img2">
+                            <img hidden src="img/_MG_3223_1.jpg" class="main__img3">
+                        </div>
+                    </div>
+                </div>
+            <div class="repair">
+                <div class="container">
+                    <div class="title">
+                        <h2>Ремонт техники различных брендов</h2>
+                    </div>
+                    <div class="service">
+                        <ul class="service__brands">
+                            <li class="service__brand first">
+                                <img src="img/Lenovo.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand">
+                                <img src="img/Samsung.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand">
+                                <img src="img/Iphone.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand">
+                                <img src="img/Bosch.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand">
+                                <img src="img/HP.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand">
+                                <img src="img/Acer.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand hidden1">
+                                <img src="img/ViewSonic.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand hidden1">
+                                <img src="img/Sony.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                        </ul>
+                        <ul class="service__brands2 hidden2">
+                            <li class="service__brand2">
+                                <img src="img/ViewSonic.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand2">
+                                <img src="img/Sony.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand2 hidden3">
+                                <img src="img/Samsung.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                            <li class="service__brand2 hidden3">
+                                <img src="img/Iphone.svg." alt="" class="service__el1">
+                                <input type="image" src="img/go.svg" alt="" class="service__el2">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="show-more">
+                        <a href="#" class="show-more__el1 hidden4">Показать все</a>
+                        <a href="#" class="show-more__el2 hidden5">Скрыть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="repair">
+                <div class="container">
+                    <div class="title">
+                        <h2>Ремонт различных видов техники</h2>
+                    </div>
+                    <div class="service1">
+                        <ul class="service1__technique">
+                            <li class="service1__tech first">
+                                <p class="service1__el1">Ремонт ноутбуков</p> 
+                                <input type="image" src="img/go.svg" alt="" class="service1__el2">
+                            </li>
+                            <li class="service1__tech">
+                                <p class="service1__el1">Ремонт планшетов</p>
+                                <input type="image" src="img/go.svg" alt="" class="service1__el2">
+                            </li>
+                            <li class="service1__tech">
+                                <p class="service1__el1">Ремонт ПК</p>
+                                <input type="image" src="img/go.svg" alt="" class="service1__el2">
+                            </li>
+                        </ul>
+                        <ul class="service1__technique2 hidden6">
+                            <li class="service1__tech2">
+                                <p class="service1__el1">Ремонт мониторов</p>
+                                <input type="image" src="img/go.svg" alt="" class="service1__el2">
+                            </li>
+                            <li class="service1__tech2 hidden7">
+                                <p class="service1__el1">Ремонт ноутбуков</p>
+                                <input type="image" src="img/go.svg" alt="" class="service1__el2">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="show-more">
+                        <a href="#" class="show-more__el1 hidden8">Показать все</a>
+                        <a href="#" class="show-more__el2 hidden9">Скрыть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <div class="container">
+                    <div class="title">
+                        <h2>Цены на услуги</h2>
+                    </div>
+                    <table class="serv-price">
+                        <tr>
+                            <th class="serv-price__el1" colspan="2">Ремонтные услуги</th>
+                            <th class="serv-price__el2">Цена</th>
+                            <th class="serv-price__el3">Срок</th>
+                            <th class="serv-price__el4"></th>
+                        </tr>
+                        <tr>
+                            <td class="serv-price__el1" colspan="2">Диагностика</td>
+                            <td class="serv-price__el2">Бесплатно</td>
+                            <td class="serv-price__el3">30 мин</td> 
+                            <td class="serv-price__el4"><input type="image" src="img/Group 10.svg" alt="" name="order"></td>
+                        </tr>
+                        <tr>
+                            <td class="serv-price__el1" colspan="2">Замена дисплея</td>
+                            <td class="serv-price__el2">1 000 ₽</td>
+                            <td class="serv-price__el3">30-120 мин</td> 
+                            <td class="serv-price__el4"><input type="image" src="img/Group 10.svg" alt="" name="order"></td>
+                        </tr>
+                        <tr>
+                            <td class="serv-price__el1" colspan="2">Замена полифонического динамика</td>
+                            <td class="serv-price__el2">1 000 ₽</td>
+                            <td class="serv-price__el3">30-120 мин</td> 
+                            <td class="serv-price__el4"><input type="image" src="img/Group 10.svg" alt="" name="order"></td>
+                        </tr>
+                        <tr>
+                            <td class="serv-price__el1" colspan="2">Тестирование с выдачей технического заключения</td>
+                            <td class="serv-price__el2">1 000 ₽</td>
+                            <td class="serv-price__el3">30-120 мин</td> 
+                            <td class="serv-price__el4"><input type="image" src="img/Group 10.svg" alt="" name="order"></td>
+                        </tr>
+                        <tr>
+                            <td class="serv-price__el1" colspan="2">Замена программного обеспечения</td>
+                            <td class="serv-price__el2">1 000 ₽</td>
+                            <td class="serv-price__el3">30-120 мин</td> 
+                            <td class="serv-price__el4"><input type="image" src="img/Group 10.svg" alt="" name="order"></td>
+                        </tr>
+                    </table>
+                    <div class="price-cards">
+                        <div class="price-card">
+                            <p class="price-card__el1">Ремонтные услуги<br>
+                            <span>Диагностика</span></p>
+                            <p class="price-card__el1">Цена<br>
+                            <span>Бесплатно</span></p>
+                            <p class="price-card__el1">Срок<br>
+                            <span>30 мин <input type="image" src="img/Group 10.svg" alt="" name="order"></span></p>
+                        </div>
+                        <div class="price-card">
+                            <p>Ремонтные услуги<br>
+                            <span>Диагностика</span></p>
+                            <p>Цена<br>
+                            <span>Бесплатно</span></p>
+                            <p>Срок<br>
+                            <span>30 мин <input type="image" src="img/Group 10.svg" alt="" name="order"></span></p>
+                        </div>
+                        <div class="price-card">
+                                <p class="price-card__el1">Ремонтные услуги<br>
+                                <span>Диагностика</span></p>
+                                <p class="price-card__el1">Цена<br>
+                                <span>Бесплатно</span></p>
+                                <p class="price-card__el1">Срок<br>
+                                <span>30 мин <input type="image" src="img/Group 10.svg" alt="" name="order"></span></p>
+                        </div>
+                        <div class="price-card">
+                                <p class="price-card__el1">Ремонтные услуги<br>
+                                <span>Диагностика</span></p>
+                                <p class="price-card__el1">Цена<br>
+                                <span>Бесплатно</span></p>
+                                <p class="price-card__el1">Срок<br>
+                                <span>30 мин <input type="image" src="img/Group 10.svg" alt="" name="order"></span></p>
+                        </div>                                                                     
+                    </div>
+                    <p>Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+                    <h4>Получить коммерческое предложение <input type="image" src="img/Line.svg" alt="" name="Line"></h4>
+                </div>
+            </div>
+            </div>
+            <div class="footer">
+				<div class="container">
+					<div class="footer__block">
+						<p class="footer__el1">© 2019 CPS Разработано командой Apesong </p>
+						<p class="footer__el2">Политика конфиденциальности</p>
+                        <p class="footer__el3">Информация, размещенная на данной странице, не является публичной офертой</p>
 					</div>
-				</body>
-				</html>				
+				</div>	
+			</div>
+        </div>
+    </div>
+<script type="text/javascript" src="./js/bundle.js"></script></div></body>
+</html>
