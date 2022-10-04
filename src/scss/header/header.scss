@@ -1,0 +1,38 @@
+
+.header__block {
+  display: flex;
+  margin-top: -30px;
+  margin-bottom: 10px;
+
+    @media (min-width: 1366px){
+      margin: 0 0;
+    }
+
+  .header__el1 {
+    height: 40px;
+    width: 4px;
+    margin-left: 4px;
+    border-radius: [object Object]px;
+  }
+
+  .header__el2 {
+    margin-top: -5px;
+    height: 40px;
+    width: 288px;
+    margin-left: 15px;
+    border-radius: nullpx;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+  }
+
+  .header__el3, .header__el4 {
+    display: none;
+
+    @media (min-width: 1366px){
+      display: flex;
+      margin-left: 150px;
+    }
+  }
+}

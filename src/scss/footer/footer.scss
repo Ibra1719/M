@@ -1,0 +1,14 @@
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+	flex-wrap: wrap;
+  color: #7E7E82;
+
+  @media (min-width: 320px){
+    text-align: center;
+  }
+
+  @media (min-width: 768px){
+    flex-wrap: nowrap;
+  }
+}

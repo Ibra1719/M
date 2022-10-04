@@ -1,0 +1,77 @@
+table {
+
+  @media (min-width: 320px){
+    display: none;
+  }
+
+  @media (min-width: 768px){
+    display: block;
+  }
+
+  @media (min-width: 1366px){
+    height: 324px;
+    width: 1056px;
+    border-radius: 6px;
+  }
+
+
+  border: 1px solid grey;
+  width: 100%;
+
+  tr {
+    border: 1px solid white;
+
+    @media (min-width: 1366px){
+      width: 1000px;
+    }
+  }
+
+    th {
+      border-bottom:  1px solid white;
+      color: #7E7E82;
+
+      @media (min-width: 1366px){
+        height: 34px;
+      }
+    }
+  
+    td {
+      border-bottom:  1px solid grey;
+
+      @media (min-width: 1366px){
+        height: 54px;
+        border-color: white;
+        width: 250px;
+      }  
+    }
+  } 
+
+
+.price-cards {
+
+  @media (min-width: 768px){
+    display: none;
+  }
+
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 -5px;
+
+  .price-card {
+    height: 200px;
+    width: 260px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    margin: 0 5px;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+    p {
+      color: #7E7E82;
+      span {
+      color: #24292e;
+      }
+    }
+  }
+}

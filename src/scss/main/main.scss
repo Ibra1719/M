@@ -1,0 +1,100 @@
+.main__block {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+
+  .main__text {
+    height: 160px;
+    width: 312px;
+    border-radius: nullpx;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 50px;
+
+    @media (min-width: 320px){
+      height: 90px;
+      width: 288px;
+      line-height: 18px; 
+    }
+
+    @media (min-width: 768px){
+      &:after {
+        content: "Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера";
+        display: block;
+        margin-top: 25px;
+      }
+    } 
+
+    @media (min-width: 1366px){
+      &:after {
+        content: "Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.";
+        display: block;
+        margin-top: 25px;
+      }
+    } 
+  }
+  
+  .main__img {
+    img {
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+
+    @media (min-width: 320px) {
+
+    .main__img1 {
+      display: block;
+      margin-right: 10px;
+      border-radius: 6px;
+    }
+
+    .main__img2 {
+      display: none;
+    }
+    }
+
+    @media (min-width: 768px) {
+      .main__img1 {
+        display: none;
+      }
+
+      .main__img2 {
+        display: block;
+      }
+    }
+
+    @media (min-width: 1366px){
+      .main__img2 {
+        display: none;
+      }
+      .main__img3 {
+        display: block;
+      }
+    }
+  }
+ 
+  
+  .main__end {
+
+  @media (min-width: 320px){    
+      margin-left: 15px;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.20000000298023224px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+  @media (min-width: 768px){  
+      order: 2;
+      position: absolute;
+      bottom: -20px;
+
+    }  
+  }
+}
+

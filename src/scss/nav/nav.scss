@@ -1,0 +1,33 @@
+.nav__block {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  margin-bottom: 30px;
+  list-style-type: none;
+  margin-left: 5px;
+
+  @media (min-width: 1366px){
+    flex-wrap: wrap;
+  }
+
+
+  li {
+    height: 40px;
+    width: 248px;
+
+    @media (min-width: 320px){
+      margin-right: 10px;
+    }
+
+    a {
+      color: #7E7E82;
+      text-decoration: none;
+    }
+
+    &:active {
+      border: 2px solid #B8FFEC;
+      display: inline-block;
+      border-radius: 6px;    
+    }
+  }
+}

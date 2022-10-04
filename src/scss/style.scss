@@ -1,0 +1,43 @@
+$bgColor: #fff;
+$text: #24292e;
+$h2: rgba(126, 126, 130, 1);
+
+body {
+  font-family: 'TT Lakes Regular';
+  color: $text;
+  background-color: $bgColor;
+
+  input:hover {
+    opacity: 0.5;
+    transition-duration: 1s;
+  }
+
+  .container {
+    @media (min-width: 1366px){
+      position: relative;
+      left: 335px;
+      top: -10px;
+		}
+  }
+}
+
+.noactive-menu {
+
+  @media (min-width: 320px){
+    display: none;
+  }
+}
+
+h2 {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.20000000298023224px;
+	text-align: left;
+	color: $h2;
+}
+
+p {
+  color: $text;  
+}
+
+

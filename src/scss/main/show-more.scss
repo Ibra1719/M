@@ -1,0 +1,36 @@
+.show-more {
+  .hidden4, .hidden5, .hidden8, .hidden9 {
+    display: none;
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+  }  
+ 
+  .show-more__el1 {
+
+    @media (min-width: 320px){
+      display: none;
+    }
+
+    @media (min-width: 768px){
+      display: block;
+    }
+  }
+
+  .show-more__el2 {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+  
+  .noactive {
+    display: none;
+  }
+}
+
